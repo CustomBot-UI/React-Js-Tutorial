@@ -1,31 +1,36 @@
-# React-Js-Tutorial
+So basically from reader ReduxJS toolkit a methodically one two three lithium simply date slide# React-Js-Tutorial
 
-This repository contains two React-related projects:
-
-- `01vitereact` — a Vite-powered React application built with modern React and Vite tooling.
-- `CustomReact` — a small custom React-like demo showing how React concepts can be implemented by hand.
+This repository contains a collection of React learning projects and demos.
+Most are built with Vite, plus one Create React App starter and one custom React-like renderer.
 
 ## Projects
 
-### 01vitereact
-A standard Vite React project using:
+- `01basicreact` — Create React App starter project.
+- `01vitereact` — Vite React application using modern React tooling.
+- `02counter` — Vite React counter example demonstrating state updates.
+- `03tailwindprops` — Vite React demo using Tailwind CSS props.
+- `04bgChanger` — Vite React background color changer.
+- `05passwordGenerator` — Vite React password generator.
+- `06currencyConvertor` — Vite React currency conversion example.
+- `07reactRouter` — Vite React routing demo.
+- `08miniContext` — Vite React context API example.
+- `09themeswitcher` — Vite React theme switching demo.
+- `10todocontextLocal` — Vite React todo app with context and local storage.
+- `CustomReact` — custom React-like renderer implementation and demo page.
 
-- `react` and `react-dom`
-- `vite`
-- `eslint`
-- `@vitejs/plugin-react`
+## Run a Vite project
 
-#### Run locally
+For most projects, use:
 
 ```bash
-cd 01vitereact
+cd <project-folder>
 npm install
 npm run dev
 ```
 
-Then open the local Vite URL shown in the terminal.
+Then open the local URL shown by Vite.
 
-#### Other commands
+Common commands inside a Vite project:
 
 ```bash
 npm run build
@@ -33,16 +38,19 @@ npm run preview
 npm run lint
 ```
 
-### CustomReact
+## Run `01basicreact`
 
-A lightweight demo in `CustomReact/` with:
+This folder uses Create React App scripts:
 
-- `customReact.js` — a custom implementation of React-inspired rendering behavior
-- `index.html` — a simple demo page to load the custom renderer
+```bash
+cd 01basicreact
+npm install
+npm start
+```
 
-#### Run locally
+## Run `CustomReact`
 
-Open `CustomReact/index.html` directly in your browser, or serve the folder with a static server such as:
+Open `CustomReact/index.html` in your browser or serve the folder with a simple static server:
 
 ```bash
 cd CustomReact
@@ -51,11 +59,8 @@ python3 -m http.server 8000
 
 Then visit `http://localhost:8000`.
 
-## Repository structure
-
-- `01vitereact/` — Vite React starter app
-- `CustomReact/` — custom React-like demo implementation
-
 ## Notes
 
-The primary app is located in `01vitereact/`. The custom demo is experimental and intended for learning purposes.
+- Each example is self-contained inside its own directory.
+- Install dependencies per project before running it.
+- The `CustomReact` demo is an experimental implementation meant for learning React internals.
