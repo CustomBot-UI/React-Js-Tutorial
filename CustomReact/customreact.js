@@ -26,7 +26,7 @@ const reactElment = {
         href: 'https://google.com',
         target: '_blank'
     },
-    children: 'Click Me to Visit google'
+    children: 'Click Me to Visit google in js'
 }
 
 const  mainContainer = document.querySelector('#root')
